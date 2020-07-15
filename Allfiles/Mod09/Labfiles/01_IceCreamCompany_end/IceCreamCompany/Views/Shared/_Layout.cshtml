@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/scripts/vendor.min.js"></script>
+    <script src="~/scripts/script.min.js"></script>
+    <link href="~/css/vendor.min.css" rel="stylesheet" />
+    <link href="~/css/main.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
+            <a class="navbar-brand" href="@Url.Action("Index", "IceCream")">
+                <img src="~/images/brand.jpg" class="d-inline-block align-top" alt="">
+                Ice Cream of Dreams
+            </a>
+            <div class="collapse navbar-collapse" id="nav-content">
+                <ul class="navbar-nav" id="nav-content">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="@Url.Action("Index", "IceCream")">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Buy", "IceCream")">Buy Ice Cream</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="main-title">
+        <h1>The Best Ice Cream You Will Taste in Your Life</h1>
+        <button type="button" onclick="location.href='@Url.Action("Buy", "IceCream")'">Buy Ice Cream</button>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

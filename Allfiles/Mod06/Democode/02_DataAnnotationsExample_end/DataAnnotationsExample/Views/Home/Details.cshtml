@@ -1,0 +1,47 @@
+﻿@model DataAnnotationsExample.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+    <link type="text/css" rel="stylesheet" href="~/css/style-sheet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>User Details</h1>
+        <div>
+            <span class="display-prop-name">
+                @Html.DisplayNameFor(model => model.FullName)
+            </span>
+            <br />
+            <span class="display-prop-value">
+                @Html.DisplayFor(model => model.FullName)
+            </span>
+        </div>
+        <div>
+            <span class="display-prop-name">
+                @Html.DisplayNameFor(model => model.Email)
+            </span>
+            <br />
+            <span class="display-prop-value">
+                @Html.DisplayFor(model => model.Email)
+            </span>
+        </div>
+        <div>
+            <span class="display-prop-name">
+                @Html.DisplayNameFor(model => model.Birthdate)
+            </span>
+            <br />
+            <span class="display-prop-value">
+                @Html.DisplayFor(model => model.Birthdate)
+            </span>
+        </div>
+    </div>
+</body>
+</html>

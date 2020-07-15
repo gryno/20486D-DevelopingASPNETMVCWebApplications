@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "gulp": "4.0.0",
+    "gulp-sass": "4.0.1",
+    "lodash": "4.17.5",
+    "hoek": "4.2.1"
+  }
+}
