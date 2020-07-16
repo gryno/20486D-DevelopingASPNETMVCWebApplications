@@ -32,12 +32,10 @@ namespace ActorsRazorPages
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //services.AddMvc().AddMvcOptions(options => options.EnableEndpointRouting = false);
-
-            services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
-        public void Configure(IApplicationBuilder app, IHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -49,14 +47,13 @@ namespace ActorsRazorPages
             }
 
             app.UseStaticFiles();
-            app.UseRouting();
             app.UseCookiePolicy();
+
+            app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
 
         }
