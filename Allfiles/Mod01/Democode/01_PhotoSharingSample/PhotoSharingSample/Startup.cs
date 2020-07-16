@@ -23,7 +23,7 @@ namespace PhotoSharingSample
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc().AddMvcOptions(options => options.EnableEndpointRouting = false);
 
             services.AddDbContext<PhotoSharingDB>(options =>
                    options.UseSqlServer(_configuration.GetConnectionString("PhotoSharingContext")));
