@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-RoutesExample_end", "Democode\02_RoutesExample_end\RoutesExample\02-RoutesExample_end.csproj", "{772C6F32-1D02-4FB6-A835-E936BCB3312F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-FiltersExample_end", "Democode\03_FiltersExample_end\FiltersExample\03-FiltersExample_end.csproj", "{26C76A1E-2108-4A12-91FD-285316D6BB86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ControllersExample_end", "Democode\01_ControllersExample_end\ControllersExample\01-ControllersExample_end.csproj", "{C87EE626-F457-48A3-998F-952BDE9E1504}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-WorldJourney_end", "Labfiles\01_WorldJourney_end\WorldJourney\00-WorldJourney_end.csproj", "{9820687C-772F-4D38-9EFE-E01E185496AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrivialMvc", "TrivialMvc\TrivialMvc.csproj", "{0911B697-887A-43B2-8F98-8C18E2101A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{772C6F32-1D02-4FB6-A835-E936BCB3312F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772C6F32-1D02-4FB6-A835-E936BCB3312F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772C6F32-1D02-4FB6-A835-E936BCB3312F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772C6F32-1D02-4FB6-A835-E936BCB3312F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C76A1E-2108-4A12-91FD-285316D6BB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C76A1E-2108-4A12-91FD-285316D6BB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C76A1E-2108-4A12-91FD-285316D6BB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C76A1E-2108-4A12-91FD-285316D6BB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87EE626-F457-48A3-998F-952BDE9E1504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87EE626-F457-48A3-998F-952BDE9E1504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87EE626-F457-48A3-998F-952BDE9E1504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87EE626-F457-48A3-998F-952BDE9E1504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9820687C-772F-4D38-9EFE-E01E185496AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9820687C-772F-4D38-9EFE-E01E185496AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9820687C-772F-4D38-9EFE-E01E185496AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9820687C-772F-4D38-9EFE-E01E185496AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0911B697-887A-43B2-8F98-8C18E2101A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0911B697-887A-43B2-8F98-8C18E2101A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0911B697-887A-43B2-8F98-8C18E2101A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0911B697-887A-43B2-8F98-8C18E2101A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B4B15B8-70F7-4B4D-B742-0509FA55EAB0}
+	EndGlobalSection
+EndGlobal

@@ -1,9 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureMiddlewareExample", "ConfigureMiddlewareExample\ConfigureMiddlewareExample.csproj", "{86C78446-B676-4EA4-84EF-5757CC3C3664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureMiddlewareExample", "ConfigureMiddlewareExample\ConfigureMiddlewareExample.csproj", "{86C78446-B676-4EA4-84EF-5757CC3C3664}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFilesExample_end", "..\02_StaticFilesExample_end\StaticFilesExample\StaticFilesExample_end.csproj", "{4BA293E0-B0AC-4A40-8C0C-3118820793C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureServiceExample_end", "..\03_ConfigureServiceExample_end\ConfigureServiceExample\ConfigureServiceExample_end.csproj", "{65701D83-1266-4842-8296-313B1D9EDE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "..\..\New folder\WebApplication1\WebApplication1.csproj", "{EA4F1B70-6FDD-4B00-B744-D4C14636A3C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9106889-2139-430E-8D57-3891629040B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Instructions\20486D_MOD03_DEMO.md = ..\..\..\..\Instructions\20486D_MOD03_DEMO.md
+		..\..\..\..\Instructions\20486D_MOD03_LAB_MANUAL.md = ..\..\..\..\Instructions\20486D_MOD03_LAB_MANUAL.md
+		..\..\..\..\Instructions\20486D_MOD03_LAK.md = ..\..\..\..\Instructions\20486D_MOD03_LAK.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{461BC3C9-7AC9-4610-B4BB-9A422A366D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{397597DB-A5AC-4249-BB0A-4652E2FFF543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +32,26 @@ Global
 		{86C78446-B676-4EA4-84EF-5757CC3C3664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C78446-B676-4EA4-84EF-5757CC3C3664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C78446-B676-4EA4-84EF-5757CC3C3664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA293E0-B0AC-4A40-8C0C-3118820793C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA293E0-B0AC-4A40-8C0C-3118820793C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA293E0-B0AC-4A40-8C0C-3118820793C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA293E0-B0AC-4A40-8C0C-3118820793C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65701D83-1266-4842-8296-313B1D9EDE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65701D83-1266-4842-8296-313B1D9EDE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65701D83-1266-4842-8296-313B1D9EDE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65701D83-1266-4842-8296-313B1D9EDE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4F1B70-6FDD-4B00-B744-D4C14636A3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4F1B70-6FDD-4B00-B744-D4C14636A3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4F1B70-6FDD-4B00-B744-D4C14636A3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4F1B70-6FDD-4B00-B744-D4C14636A3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461BC3C9-7AC9-4610-B4BB-9A422A366D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461BC3C9-7AC9-4610-B4BB-9A422A366D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461BC3C9-7AC9-4610-B4BB-9A422A366D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461BC3C9-7AC9-4610-B4BB-9A422A366D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397597DB-A5AC-4249-BB0A-4652E2FFF543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397597DB-A5AC-4249-BB0A-4652E2FFF543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397597DB-A5AC-4249-BB0A-4652E2FFF543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397597DB-A5AC-4249-BB0A-4652E2FFF543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
